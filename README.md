@@ -14,6 +14,9 @@ email:
   to: eee
   user: fff
   password: hhh
+url:
+  anime: iii
+  tv: jjj
 ```
 
 The purpose is to have the secrets/personal stuff in a file that's not shared.

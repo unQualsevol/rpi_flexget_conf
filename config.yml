@@ -31,7 +31,7 @@ templates:
               html: yes 
 tasks:
   search-anime:
-    rss: http://horriblesubs.info/rss.php?res=1080
+    rss: '{? url.anime ?}'
     series:
       settings:
         shows:
@@ -52,7 +52,7 @@ tasks:
         - Persona 5 The Animation
     template: addToTransmission
   search-series:
-    rss: https://eztv.ag/ezrss.xml
+    rss: '{? url.tv ?}'
     series:
       settings:
         shows:
@@ -63,5 +63,3 @@ tasks:
         - Marvels Agents of S H I E L D
         - Alex Inc
     template: addToTransmission
-
-
