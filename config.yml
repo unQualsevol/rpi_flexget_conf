@@ -1,0 +1,67 @@
+schedules:
+  - tasks: '*'
+    interval:
+      minutes: 30
+
+variables: secrets.yml
+
+templates:
+ 
+  addToTransmission:
+    transmission:
+      host: '{? trans.host ?}'
+      port: 9091
+      username: '{? trans.user ?}'
+      password: '{? trans.password ?}'
+
+  global:
+    notify:
+      entries:
+        title: '{{title}}'  
+        message: '{{title}} added to Transmission successfully.'
+        via:
+          - email:
+              from: '{? email.from ?}'
+              to: '{? email.to ?}'
+              smtp_host: smtp.gmail.com
+              smtp_port: 587
+              smtp_username: '{? email.user ?}'
+              smtp_password: '{? email.password ?}'
+              smtp_tls: yes
+              html: yes 
+tasks:
+  search-anime:
+    rss: http://horriblesubs.info/rss.php?res=1080
+    series:
+      settings:
+        shows:
+          identified_by: sequence
+          tracking: no
+      shows:
+        - Darling in the FranXX
+        - Beatless
+        - Black Clover
+        - Death March kara Hajimaru Isekai Kyousoukyoku
+        - Overlord II
+        - Violet Evergarden
+        - Shokugeki no Soma
+        - Boku no Hero Academia
+        - Captain Tsubasa
+        - Golden Kamui
+        - Mahou Shoujo Ore
+        - Persona 5 The Animation
+    template: addToTransmission
+  search-series:
+    rss: https://eztv.ag/ezrss.xml
+    series:
+      settings:
+        shows:
+          quality: 720p+ hdtv
+          identified_by: ep
+          tracking: no
+      shows:
+        - Marvels Agents of S H I E L D
+        - Alex Inc
+    template: addToTransmission
+
+
