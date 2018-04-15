@@ -42,14 +42,19 @@ tasks:
         - Beatless
         - Black Clover
         - Death March kara Hajimaru Isekai Kyousoukyoku
-        - Overlord II
-        - Violet Evergarden
+        - Overlord
         - Shokugeki no Soma
         - Boku no Hero Academia
         - Captain Tsubasa
-        - Golden Kamui
+        - Golden Kamuy
         - Mahou Shoujo Ore
         - Persona 5 The Animation
+        - 3D Kanojo Real Girl
+        - Devil's Line
+        - Hinamatsuri
+        - Tada-Kun wa Koi wo Shinai
+        - Wotaku ni Koi wa Muzukashii
+        - Megalo Box
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
