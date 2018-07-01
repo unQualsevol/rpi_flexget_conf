@@ -41,11 +41,17 @@ tasks:
         - Darling in the FranXX
         - Beatless
         - Black Clover
-        - Shokugeki no Soma
-        - Boku no Hero Academia
         - Golden Kamuy
-        - Hinamatsuri
-        - Wotaku ni Koi wa Muzukashii
+        - Boku no Hero Academia
+        - Hanebado
+        - Island
+        - Overlord
+        - Back Street Girls
+        - Banana Fish
+        - FLCL Alternative
+        - Happy Sugar Life
+        - Harukana Receive
+        - Shingeki no Kyojin
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
