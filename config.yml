@@ -38,20 +38,18 @@ tasks:
           identified_by: sequence
           tracking: no
       shows:
-        - Darling in the FranXX
-        - Beatless
         - Black Clover
-        - Golden Kamuy
+        - Grand Blue
         - Boku no Hero Academia
         - Hanebado
         - Island
         - Overlord
-        - Back Street Girls
         - Banana Fish
         - FLCL Alternative
         - Happy Sugar Life
         - Harukana Receive
         - Shingeki no Kyojin
+        - Satsuriku no Tenshi
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
