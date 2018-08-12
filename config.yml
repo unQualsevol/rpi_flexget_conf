@@ -50,6 +50,7 @@ tasks:
         - Harukana Receive
         - Shingeki no Kyojin
         - Satsuriku no Tenshi
+        - Hataraku Saibou
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
