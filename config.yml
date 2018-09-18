@@ -46,10 +46,8 @@ tasks:
         - Overlord
         - Banana Fish
         - FLCL Alternative
-        - Happy Sugar Life
         - Harukana Receive
         - Shingeki no Kyojin
-        - Satsuriku no Tenshi
         - Hataraku Saibou
     template: addToTransmission
   search-series:
