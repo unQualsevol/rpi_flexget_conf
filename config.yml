@@ -39,14 +39,12 @@ tasks:
           tracking: no
       shows:
         - Black Clover
-        - Grand Blue
+        - Golden Kamuy
         - Boku no Hero Academia
-        - Hanebado
-        - Island
+        - Seishun Buta Yarou
+        - Zombie Land Saga
         - Overlord
         - Banana Fish
-        - FLCL Alternative
-        - Harukana Receive
         - Shingeki no Kyojin
         - Hataraku Saibou
     template: addToTransmission
