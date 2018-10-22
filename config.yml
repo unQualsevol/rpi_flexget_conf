@@ -46,7 +46,7 @@ tasks:
         - Overlord
         - Banana Fish
         - Shingeki no Kyojin
-        - Hataraku Saibou
+        - Tensei Shitara Slime Datta Ken
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
