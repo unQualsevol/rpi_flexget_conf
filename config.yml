@@ -49,6 +49,7 @@ tasks:
         - Shingeki no Kyojin
         - Tensei Shitara Slime Datta Ken
         - SSSS.Gridman
+        - Yagate Kimi ni Naru
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
