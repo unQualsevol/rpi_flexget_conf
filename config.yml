@@ -39,17 +39,11 @@ tasks:
           tracking: no
       shows:
         - Black Clover
-        - Golden Kamuy
-        - Goblin Slayer
-        - Seishun Buta Yarou
-        - Zombie Land Saga
-        - Gaikotsu Shoten’in Honda-san
-        - Irozuku Sekai no Ashita kara
-        - Banana Fish
+        - Boogiepop wa Warawanai
+        - Dororo
+        - Yakusoku no Neverland
         - Shingeki no Kyojin
         - Tensei Shitara Slime Datta Ken
-        - SSSS.Gridman
-        - Yagate Kimi ni Naru
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
