@@ -44,6 +44,7 @@ tasks:
         - Yakusoku no Neverland
         - Shingeki no Kyojin
         - Tensei Shitara Slime Datta Ken
+        - Kaguya-sama wa Kokurasetai
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
