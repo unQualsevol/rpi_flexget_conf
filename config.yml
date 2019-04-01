@@ -39,12 +39,14 @@ tasks:
           tracking: no
       shows:
         - Black Clover
-        - Boogiepop wa Warawanai
         - Dororo
         - Yakusoku no Neverland
         - Shingeki no Kyojin
-        - Tensei Shitara Slime Datta Ken
-        - Kaguya-sama wa Kokurasetai
+        - One Punch Man
+        - Kimetsu no Yaiba
+        - Fruits Basket
+        - Boku-tachi wa Benkyou ga Dekinai
+        - Gunjou no Magmel
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
