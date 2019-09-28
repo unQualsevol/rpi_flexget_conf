@@ -45,12 +45,17 @@ tasks:
         - One Punch Man
         - DanMachi
         - Kimetsu no Yaiba
-        - Fairy Gone
+        - Boku no Hero Academia
         - Tensei Shitara Slime Datta Ken
         - Fruits Basket
-        - Midara na Ao-chan wa Benkyou ga Dekinai
+        - Shokugeki no Soma
         - Boku-tachi wa Benkyou ga Dekinai
-        - Gunjou no Magmel
+        - Psycho-Pass
+        - Assassin's Pride
+        - Babylon
+        - Choujin Koukousei-tachi
+        - Ahiru no Sora
+        - Chuubyou Gekihatsu Boy
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
