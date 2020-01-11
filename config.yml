@@ -49,13 +49,10 @@ tasks:
         - Tensei Shitara Slime Datta Ken
         - Fruits Basket
         - Shokugeki no Soma
-        - Bokutachi wa Benkyou ga Dekinai
         - Psycho-Pass
-        - Assassin's Pride
         - Babylon
-        - Choujin Koukousei-tachi
         - Ahiru no Sora
-        - Chuubyou Gekihatsu Boy
+        - Haikyuu!!
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
