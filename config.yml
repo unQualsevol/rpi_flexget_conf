@@ -50,9 +50,19 @@ tasks:
         - Fruits Basket
         - Shokugeki no Soma
         - Psycho-Pass
-        - Babylon
         - Ahiru no Sora
         - Haikyuu!!
+        - Kaguya-sama wa Kokurasetai
+        - BNA
+        - Kami no Tou
+        - Tsugumomo
+        - Kakushigoto
+        - Gleipnir
+        - Yesterday wo Utatte 
+        - Fugou Keiji
+        - LISTENERS
+        - Arte
+        - Nami yo Kiitekure 
     template: addToTransmission
   search-series:
     rss: '{? url.tv ?}'
